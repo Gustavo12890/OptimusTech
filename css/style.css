@@ -1,0 +1,575 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+:root {
+    --cor1: #3a404e;
+    --cor2: #667085;
+    --cor3: #ffffff;
+    --cor4: #8e2424;
+    --cor5: #101828;
+    --cor6: rgba(142, 36, 36, 0.051);
+    --cor7: #eaecf0;
+    --cor8: rgba(195, 25, 25, 0.031);
+    --cor9: #f9fafb;
+    --cor10: #d0d5dd;
+    --cor11: rgba(152, 162, 179, 1);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+}
+
+.subtitulo {
+    color: var(--cor4);
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.titulo {
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 90px;
+}
+
+.texto {
+    font-weight: 400;
+    font-size: 17px;
+    font-style: normal;
+    line-height: 30px;
+    color: var(--cor2);
+}
+
+.section-sobre {
+    text-align: center;
+    padding: 60px 0px;
+}
+
+.grupo-textos {
+    margin-top: 24px;
+}
+
+/*FINAL DA SEÇÃO SOBRE NÓS*/
+
+.titulo-metricas {
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 72px;
+    color: var(--cor4);
+}
+
+.subtitulo-metricas {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    margin: 12px 0px 8px 0px;
+    color: var(--cor5);
+}
+
+.texto-metricas {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--cor2);
+}
+
+.section-metricas {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-bottom: 96px;
+}
+
+/*FINAL DA SEÇÃO DAS MÉTRICAS*/
+
+.section-talentos {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 32px;
+}
+
+.titulo-talentos {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    width: 125px;
+    height: 28px;
+    padding: 4px 12px;
+    border-radius: 16px;
+    background-color: var(--cor6);
+    color: var(--cor4);
+}
+
+.subtitulo-talentos {
+    font-weight: 600;
+    font-size: 29px;
+    line-height: 44px;
+    margin: 16px 0px 20px 0px;
+    color: var(--cor5);
+}
+
+.texto-talentos {
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 30px;
+    color: var(--cor2);
+}
+
+.img-talentos {
+    margin-top: 50px;
+    width: 100%;
+    height: auto;
+}
+
+/*FINAL DA SEÇÃO DE TALENTOS*/
+
+.section-vagas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 0px;
+}
+
+.titulo-vagas {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 32px;
+}
+
+.informacoes-vaga {
+    border: 1.2px solid;
+    border-color: var(--cor7);
+    border-radius: 16px;
+    padding: 24px 24px 28px 24px;
+    width: 300px;
+    height: 136px;
+}
+
+.titulo-informacoes {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 32px;
+}
+
+.texto-informacoes {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: var(--cor2);
+    margin-right: 17px;
+}
+
+.card-vaga {
+    margin-bottom: 24px;
+}
+
+/*FINAL SEÇÃO VAGAS*/
+
+.section-depoimentos {
+    text-align: center;
+    border-radius: 16px;
+}
+
+.container-depoimentos {
+    background-color: var(--cor8);
+    width: 100%;
+    height: 460px;
+    padding: 20px;
+    margin-bottom: 96px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.titulo-depoimentos {
+    font-weight: 600;
+    font-size: 13.3px;
+    margin-bottom: 16px;
+    line-height: 20px;
+    color: var(--cor4);
+}
+
+.subtitulo-depoimentos {
+    font-weight: 500;
+    font-size: 25px;
+    margin-bottom: 32px;
+    line-height: 44px;
+    color: var(--cor5);
+}
+
+
+.nome-depoimentos {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 16px 0px 4px 0px;
+}
+
+.texto-depoimentos {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--cor2);
+}
+
+/*FINAL DA SEÇÃO DEPOIMENTOS*/
+
+.footer {
+    background-color: var(--cor9);
+    text-align: center;
+    padding: 96px 0px;
+}
+
+.titulo-footer {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 44px;
+}
+
+.texto-footer {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: var(--cor2);
+    margin: 20px 0px 40px 0px;
+}
+
+.input-footer {
+    width: 200px;
+    height: 48px;
+    padding: 12px 14px 12px 16px;
+    margin: 0px 5px 32px 0px;
+    border-radius: 8px;
+    border: 1px solid;
+    box-shadow: 2px 2px 4px rgba(16, 24, 40, 0.05);
+    border-color: var(--cor10);
+}
+
+.btn-footer {
+    width: 116px;
+    height: 48px;
+    padding: 12px 20px;
+    border-radius: 8px;
+    border: 1px solid;
+    border-color: var(--cor4);
+    background-color: var(--cor4);
+    color: var(--cor3);
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.direitos-footer {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--cor11);
+}
+
+@media screen and (min-width: 1200px) {
+
+    /*ACIMA DE DESKTOP*/
+    .section-sobre {
+        text-align: center;
+        padding: 96px 0px;
+    }
+
+    .subtitulo {
+        font-size: 16px;
+    }
+
+    .titulo {
+        font-size: 44px;
+        line-height: 90px;
+    }
+
+    .texto {
+        font-size: 20px;
+    }
+
+    .section-metricas {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        text-align: left;
+        gap: 40px;
+        padding: 0px 100px 96px 120px;
+        width: 100%;
+    }
+
+    .section-metricas div {
+        min-width: 260px;
+        max-width: 290px;
+    }
+
+    .titulo-metricas {
+        font-size: 60px;
+    }
+
+    .subtitulo-metricas {
+        font-size: 18px;
+    }
+
+    .texto-metricas {
+        font-size: 16px;
+    }
+
+    .subtitulo-talentos {
+        font-size: 34px;
+    }
+
+    .texto-talentos {
+        font-size: 20px;
+    }
+
+    .img-talentos {
+        margin-top: 64px;
+        width: 1216px;
+        height: auto;
+    }
+
+    .informacoes-vaga {
+        width: 768px;
+    }
+
+    .texto-informacoes {
+        font-size: 16px;
+        margin-right: 24px;
+    }
+
+    .section-depoimentos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container-depoimentos {
+        width: 1216px;
+        height: 404px;
+        padding: 64px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .titulo-depoimentos {
+        font-size: 14px;
+    }
+
+    .subtitulo-depoimentos {
+        font-size: 36px;
+    }
+
+    .titulo-footer {
+        font-size: 36px;
+    }
+
+    .texto-footer {
+        font-size: 20px;
+    }
+
+    .input-footer {
+        width: 360px;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+
+    /*DESKTOP*/
+    .section-sobre {
+        text-align: center;
+        padding: 96px 0px;
+    }
+
+    .subtitulo {
+        font-size: 16px;
+    }
+
+    .titulo {
+        font-size: 44px;
+        line-height: 90px;
+    }
+
+    .texto {
+        font-size: 20px;
+    }
+
+    .section-metricas {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        text-align: left;
+        gap: 40px;
+        padding: 0px 100px 96px 120px;
+        width: 100%;
+    }
+
+    .section-metricas div {
+        min-width: 220px;
+        max-width: 290px;
+    }
+
+    .titulo-metricas {
+        font-size: 60px;
+    }
+
+    .subtitulo-metricas {
+        font-size: 18px;
+    }
+
+    .texto-metricas {
+        font-size: 16px;
+    }
+
+    .subtitulo-talentos {
+        font-size: 34px;
+    }
+
+    .texto-talentos {
+        font-size: 20px;
+    }
+
+    .informacoes-vaga {
+        width: 768px;
+    }
+
+    .texto-informacoes {
+        font-size: 16px;
+        margin-right: 24px;
+    }
+
+    .section-depoimentos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container-depoimentos {
+        width: 900px;
+        height: 404px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .titulo-depoimentos {
+        font-size: 14px;
+    }
+
+    .subtitulo-depoimentos {
+        font-size: 36px;
+    }
+
+    .titulo-footer {
+        font-size: 36px;
+    }
+
+    .texto-footer {
+        font-size: 20px;
+    }
+
+    .input-footer {
+        width: 360px;
+    }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+    /*TABLET*/
+    .subtitulo {
+        font-size: 16px;
+    }
+
+    .titulo {
+        font-size: 38px;
+    }
+
+    .texto {
+        font-size: 18px;
+    }
+
+    .section-metricas {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        text-align: left;
+        gap: 32px;
+        padding: 0px 100px 96px 100px;
+        width: 100%;
+    }
+
+    .section-metricas div {
+        min-width: 160px;
+        max-width: 300px;
+    }
+
+    .titulo-metricas {
+        font-size: 50px;
+    }
+
+    .subtitulo-metricas {
+        font-size: 16px;
+    }
+
+    .texto-metricas {
+        font-size: 14px;
+    }
+
+    .informacoes-vaga {
+        width: 568px;
+    }
+
+    .texto-informacoes {
+        font-size: 16px;
+        margin-right: 24px;
+    }
+
+    .section-depoimentos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container-depoimentos {
+        width: 650px;
+        height: 404px;
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .titulo-depoimentos {
+        font-size: 14px;
+    }
+
+    .subtitulo-depoimentos {
+        font-size: 27px;
+    }
+
+    .titulo-footer {
+        font-size: 36px;
+    }
+
+    .texto-footer {
+        font-size: 20px;
+    }
+
+    .input-footer {
+        width: 360px;
+    }
+}
