@@ -4,11 +4,11 @@
     --cor1: #3a404e;
     --cor2: #667085;
     --cor3: #ffffff;
-    --cor4: #8e2424;
+    --cor4: #b666d2;
     --cor5: #101828;
     --cor6: rgba(142, 36, 36, 0.051);
     --cor7: #eaecf0;
-    --cor8: rgba(195, 25, 25, 0.031);
+    --cor8: rgba(182, 102, 210, 0.031);
     --cor9: #f9fafb;
     --cor10: #d0d5dd;
     --cor11: rgba(152, 162, 179, 1);
@@ -279,9 +279,7 @@ body {
     color: var(--cor11);
 }
 
-@media screen and (min-width: 1200px) {
-
-    /*ACIMA DE DESKTOP*/
+@media screen and (min-width: 1200px) { /*ACIMA DE DESKTOP*/
     .section-sobre {
         text-align: center;
         padding: 96px 0px;
@@ -386,9 +384,7 @@ body {
     }
 }
 
-@media screen and (min-width: 992px) and (max-width: 1200px) {
-
-    /*DESKTOP*/
+@media screen and (min-width: 992px) and (max-width: 1200px) { /*DESKTOP*/
     .section-sobre {
         text-align: center;
         padding: 96px 0px;
@@ -412,8 +408,7 @@ body {
         flex-direction: row;
         justify-content: center;
         text-align: left;
-        gap: 40px;
-        padding: 0px 100px 96px 120px;
+        padding: 0px 100px 96px 100px;
         width: 100%;
     }
 

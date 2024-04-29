@@ -4,11 +4,18 @@
     --cor1: #3a404e;
     --cor2: #667085;
     --cor3: #ffffff;
-    --cor4: #8e2424;
+    --cor4: #b666d2;
+}
+
+header {
+    height: 84px;
 }
 
 .navbar {
     padding: 24px 32px;
+    position: fixed;
+    width: 100%;
+    background-color: var(--cor3);
 }
 
 .nav-logo {
@@ -61,7 +68,7 @@
 }
 
 .nav-links a:hover {
-    color: #8e2424;
+    color: var(--cor4);
 }
 
 .espaço {
@@ -87,7 +94,7 @@
 }
 
 .btn-entrar:hover {
-    color: #8e2424;
+    color: var(--cor4);
 }
 
 .btn-cadastrar {
@@ -127,4 +134,4 @@
         display: flex;
         flex-direction: row;
     }
-} 
+}
